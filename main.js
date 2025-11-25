@@ -3,7 +3,9 @@ const app = Vue.createApp({
         return {
             product: 'Socks',
             image: 'assets/images/socks_green.jpg',
-            url: 'google.com'
+            url: 'google.com',
+            inventory: 100,
+            onSale: false
         }
     }
 })
